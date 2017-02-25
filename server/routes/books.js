@@ -28,7 +28,7 @@ router.get('/add', (req, res, next) => {
 
    res.render('books/details', {
     title: "Add a new Book",
-    books: '',
+    books: ''
   });
 
 });
@@ -37,7 +37,6 @@ router.get('/add', (req, res, next) => {
 router.post('/add', (req, res, next) => {
  let newBook = book({
     "Title": req.body.title,
-    "Description": req.body.description,
     "Price": req.body.price,
     "Author": req.body.author,
     "Genre": req.body.genre
@@ -68,7 +67,7 @@ try {
         } else {
           // show the book details view
           res.render('books/details', {
-              title: 'book Details',
+              title: 'Book Details',
               books: books,
               
           });
@@ -88,7 +87,6 @@ router.post('/:id', (req, res, next) => {
      let updatedBook = book({
        "_id": id,
       "Title": req.body.title,
-      "Description": req.body.description,
       "Price": req.body.price,
       "Author": req.body.author,
       "Genre": req.body.genre

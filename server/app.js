@@ -1,3 +1,8 @@
+/*Student Name: Benzir Ahmed
+  Student ID: 300-727-117
+  Class: COMP308-W2017
+  Midterm 1*/
+
 // modules required for the project
 let express = require('express');
 let path = require('path'); // part of node.js core

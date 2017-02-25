@@ -1,3 +1,7 @@
+/*Student Name: Benzir Ahmed
+  Student ID: 300-727-117
+  Class: COMP308-W2017
+  Midterm 1*/
 {
   "name": "comp308-w2017-midterm",
   "version": "0.0.1",
@@ -40,10 +44,10 @@
     "ExpressJS",
     "EJS"
   ],
-  "author": "Tom Tsiliopoulos",
+  "author": "Benzir Ahmed",
   "license": "ISC",
   "bugs": {
     "url": ""
   },
-  "homepage": ""
+  "homepage": "https://github.com/ahmedb7/COMP308-W2017-MidTerm-300727117"
 }

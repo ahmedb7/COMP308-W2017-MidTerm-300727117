@@ -1,3 +1,7 @@
+/*Student Name: Benzir Ahmed
+  Student ID: 300-727-117
+  Class: COMP308-W2017
+  Midterm 1*/
 module.exports = {
   //local MongoDB deployment ->
   "URI": "mongodb://localhost/books308"
